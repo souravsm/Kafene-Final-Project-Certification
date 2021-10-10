@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/images/logo.png">
+        <span>Kafene</span>
+        <ul class="menu">
+            <li> <a href="orders.html">Orders</a> </li>
+            <li> <a href="products.html">Products</a> </li>
+            <li> <a href="users.html">Users</a> </li>
+        </ul>
+        <span id="logout"><a href="#" onclick="logout()">Logout</a></span>
+    </header>
+    <div class="container">
+        <div class="wrapper">
+            <div class="title"><span>Login Form</span></div>
+            <form id="login">
+                <div class="row">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username" name="username" id="username" required>
+                </div>
+                <div class="row">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password" name="password" id="password" required>
+                </div>
+                <div class="row button">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

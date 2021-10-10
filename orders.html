@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/products.css">
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Orders</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/images/logo.png">
+        <span>Kafene</span>
+        <ul class="menu">
+            <li> <a href="orders.html">Orders</a> </li>
+            <li> <a href="products.html">Products</a> </li>
+            <li> <a href="users.html">Users</a> </li>
+        </ul>
+        <span id="logout"><a href="#" onclick="logout()">Logout</a></span>
+    </header>
+    <div class="containter-products">
+        <h1>Orders</h1>
+        <div class="sidebar">
+
+
+            <h3 class="tite">Filters</h3>
+            <div class="count">
+                <span>Count: </span><span class="ordersCount">100</span>
+            </div>
+            <div class="filter_input">
+                <label class="filer_checkbox">
+                    <input type="checkbox" class="filter_check" value="New" checked="">
+                    New
+                </label>
+                <label class="filer_checkbox">
+                    <input type="checkbox" class="filter_check" value="Packed" checked="">
+                    Packed
+                </label>
+                <label class="filer_checkbox">
+                    <input type="checkbox" class="filter_check" value="InTransit" checked="">
+                    InTransit
+                </label>
+                <label class="filer_checkbox">
+                    <input type="checkbox" class="filter_check" value="Delivered" checked="">
+                    Delivered
+                </label>
+            </div>
+
+        </div>
+        <div class="data">
+
+            <table class="userdata">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Customer</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody class="table-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="./assets/js/orders.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

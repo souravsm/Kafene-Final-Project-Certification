@@ -1,0 +1,31 @@
+.data {
+  width: 85%;
+  float: right;
+}
+.userdata {
+  width: 100%;
+}
+tr,
+th,
+td {
+  text-align: left;
+}
+.sidebar {
+  width: 15%;
+  float: left;
+}
+
+.containter-products {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.filer_checkbox {
+  display: block;
+  margin: 5px 0px;
+}
+
+.tite {
+  margin-bottom: 20px;
+}

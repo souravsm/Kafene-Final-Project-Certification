@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/users.css">
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Users</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/images/logo.png">
+        <span>Kafene</span>
+        <ul class="menu">
+            <li> <a href="orders.html">Orders</a> </li>
+            <li> <a href="products.html">Products</a> </li>
+            <li> <a href="users.html">Users</a> </li>
+        </ul>
+        <span id="logout"><a href="#" onclick="logout()">Logout</a></span>
+    </header>
+
+    <div class="data">
+        <div class="search_area">
+            <form class="user_search">
+                <input class="user_search_filed" type="search" placeholder="Search by Name">
+                <input type="submit" class="search_submit" value="Submit">
+                <input type="reset" class="search_reset" value="Reset">
+            </form>
+        </div>
+        <h1>Users</h1>
+        <table class="userdata">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Profile Pic</th>
+                    <th>Name</th>
+                    <th>DOB</th>
+                    <th>Gender</th>
+                    <th>Place</th>
+                </tr>
+            </thead>
+            <tbody class="table-body"></tbody>
+        </table>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/users.js"></script>
+</body>
+
+</html>

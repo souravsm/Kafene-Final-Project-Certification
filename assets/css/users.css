@@ -1,0 +1,30 @@
+.data {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 70px 0;
+}
+.userdata {
+    width: 100%;
+}
+tr , th , td  {
+    text-align: left;
+}
+.search_area {
+    margin-bottom: 30px;
+}
+.search_area .search_submit, 
+.search_area .search_reset {
+    display: inline-block;
+    border: none;
+    padding: 16px;
+    background-color: #20b883;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.search_area .user_search_filed {
+    padding: 12px;
+    border: none;
+    width: 40%;
+}
