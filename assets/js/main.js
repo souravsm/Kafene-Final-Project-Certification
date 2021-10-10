@@ -18,5 +18,5 @@ form.addEventListener("submit", function (e) {
 function logout() {
     localStorage.setItem('login_status', 0);
     // window.location = "login.html";
-    window.location.href = '/login.html'; 
+    window.location.href = 'login.html'; 
 }
